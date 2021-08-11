@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+      <line
+        y2="2.5"
+        x2="12.5"
+        y1="12.5"
+        x1="2.5"
+        stroke="red"
+        strokeWidth="3"
+        fill="none"
+      />
+      <line
+        y2="12.5"
+        x2="12.5"
+        y1="2.5"
+        x1="2.5"
+        stroke="red"
+        strokeWidth="3"
+        fill="none"
+      />
+    </svg>
