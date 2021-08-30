@@ -19,7 +19,7 @@ function App() {
             availableOptions={["books", "movies", "other"]}
           />
           <div className="controls">
-            <Button type="reset">
+            <Button type="reset" aria-label="clear the form">
               <Icon />
             </Button>
             <Button type="submit">Submit</Button>
