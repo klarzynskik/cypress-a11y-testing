@@ -13,7 +13,7 @@ function App() {
         <h1>Dummy form</h1>
         <form onSubmit={() => setSubmitted(true)} className="form">
           <TextInput label="Name:" id="name" />
-          <TextInput label="Last Name:" id="last-name" tabIndex="-1"/>
+          <TextInput label="Last Name:" id="last-name"/>
           <Checkbox
             label="Interests:"
             availableOptions={["books", "movies", "other"]}
