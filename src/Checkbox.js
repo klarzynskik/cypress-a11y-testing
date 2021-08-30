@@ -2,7 +2,7 @@ function Checkbox({ label, availableOptions, ...otherProps }) {
   const checkboxElements = availableOptions.map((option) => (
     <div key={option}>
       <input type="checkbox" id={option} name={option} {...otherProps}/>
-      <label className="checkboxLabel">
+      <label htmlFor={option} className="checkboxLabel">
         {option.charAt(0).toUpperCase() + option.slice(1)}
       </label>
     </div>
