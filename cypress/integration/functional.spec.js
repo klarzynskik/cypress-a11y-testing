@@ -5,10 +5,10 @@ describe('dummy form', () => {
     })
 
     it('should allow submitting data', () => {
-        cy.get('[id=name]').type('Dummy')
-        cy.get('[id=last-name]').type('Tester')
-        cy.get('[id=books]').click()
-        cy.get('[type=submit]').click()
-        cy.contains('Thanks for submitting the form!').should('be.visible')
+        cy.findByLabelText('Name:').type('Dummy')
+        cy.findByLabelText('Last Name:').type('Tester')
+        cy.findByLabelText('Books').click()
+        cy.findByText('Submit').click()
+        cy.findByText('Thanks for submitting the form!').should('be.visible')
     })
 })
